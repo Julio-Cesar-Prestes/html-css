@@ -1,0 +1,68 @@
+
+#cabeçalho {
+    background-color: burlywood;
+    width: 100%;    
+}
+
+#texto{
+   text-align: center;
+}
+
+#coluna1 {
+    background-color: red;
+    height: 900px;
+    width: 200px;
+    float: left;/**Faz a div flutuar*/
+    margin: 5px;/**Insere uma margem acima da div*/
+    padding: 5px;/**Insere espaçamento entre as divs*/
+    border: double 10px black;
+}
+
+#coluna3 {
+    background-color: whitesmoke;
+    border: double 10px black;
+}
+
+#coluna2 {
+    background-color: blue;
+    height: 900px;
+    width: 200px;
+    float: right;
+    margin: 5px;
+    padding: 5px;  
+    border: solid 10px black;
+}
+
+#texto-1 {
+    text-align: justify;
+}
+
+#texto-2 {
+    text-align: justify;
+}
+
+#footer{
+  position: fixed;/**Vai fixar a div footer no rodapé*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  yellowgreen;
+  clear: both;
+  color: white;
+  text-align: center;
+}
+
+#tabela1, td, tr {
+    border: solid 2PX black;
+}
+
+.titulo {
+    background-color: black;
+    color: white;
+}
+
+.cont {
+    background-color: red;
+}
+
+

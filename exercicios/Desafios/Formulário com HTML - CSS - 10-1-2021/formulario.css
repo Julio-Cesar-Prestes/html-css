@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}/**O asterísco selecione todos os elementos da a página HTML*/
+
+#titulo{
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 7%;
+}/**Usa # para selecionar cada ID*/
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 10%;
+}/**Usa # para selecionar cada ID*/
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 36%;/**Margem com relação |à esquerda*/
+    margin-top: 2%;/**Margemv que vai ser de cima para baixo*/
+    justify-content: center;/**Irá centralizar o formulário na página*/
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}/**Vai colocar em todas as caixas de texto uma borda arrendodada*/
+
+.campo{
+    margin-bottom: 1em;
+}/**Usa .(Ponto) para selecionar as classes*/
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}/**Seleciona a classe que contém label*/
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}/**Pega o elemento fieldset que contem as classes grupo e campo*/
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #59429d;/**Forma de escrever a cor em hexadecimal*/
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);/**Forma de escrever a cor em rgba*/
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #e0e0f8;/**Fundo vai ficar com esta cor*/
+}/**Classe campo e pega a subclasse focus e coloca nos elementos, elementos input, select e textarea ficarão em evidencia*/
+
+.botao{
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}/**Quando usa a classe hover (Estilo) ao passar o mouse por cima do botão muda a cor*/
+
+#check{
+    display: inline-block;
+}
+
